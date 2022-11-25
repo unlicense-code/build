@@ -11,3 +11,5 @@ chunks are parts of executeable code including maybe sourceMaps where they orgin
 Often they get build dynamical with a mixed set of Assets to build software. 
 
 so you learned chunks are dynamic build instructions and assets are static referenced content assets of any type even other source code that can produce chunks is a assets until it produced a chunk :)
+
+so you can simply think of them as processed and unprocessed assets a processed parsed asset that generates code gets a chunk a filesystem entry for example is a asset and gets a chunk 
