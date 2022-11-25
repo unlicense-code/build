@@ -1,0 +1,3 @@
+[submodule "gitmodules/code-oss-dev"]
+	path = gitmodules/code-oss-dev
+	url = https://github.com/microsoft/vscode
