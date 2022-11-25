@@ -13,3 +13,14 @@ Often they get build dynamical with a mixed set of Assets to build software.
 so you learned chunks are dynamic build instructions and assets are static referenced content assets of any type even other source code that can produce chunks is a assets until it produced a chunk :)
 
 so you can simply think of them as processed and unprocessed assets a processed parsed asset that generates code gets a chunk a filesystem entry for example is a asset and gets a chunk 
+
+Combined Chunks and assets do form whats called Artifact
+
+that gets us the the next chapter the two main build types source builds and artifact builds. 
+
+## Build Types
+a Artifact build is based on pre build artifacts from a prev build step in general this is the most fastest and stable way.
+and should be the prefered unless your working on some internal binary code. Most Application developers should not need
+to ever use a other development mode then the Artifact mode. 
+
+The Artificat mode also enables so called rolling releases
